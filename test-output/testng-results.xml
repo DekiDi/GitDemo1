@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-29T13:54:02 CET" name="Loan Department" finished-at="2023-10-29T13:54:02 CET" duration-ms="207">
+    <groups>
+      <group name="Smoke">
+        <method signature="class1.demo()[pri:0, instance:testPackage.class1@15aab8c6]" name="demo" class="testPackage.class1"/>
+        <method signature="class2.PLoan()[pri:0, instance:testPackage.class2@49c7b90e]" name="PLoan" class="testPackage.class2"/>
+        <method signature="class4.loginAPIHomeLoan()[pri:0, instance:testPackage.class4@10d307f1]" name="loginAPIHomeLoan" class="testPackage.class4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-10-29T13:54:02 CET" name="Regression" finished-at="2023-10-29T13:54:02 CET" duration-ms="207">
+      <class name="testPackage.class1">
+        <test-method signature="demo()[pri:0, instance:testPackage.class1@15aab8c6]" started-at="2023-10-29T13:54:02 CET" name="demo" finished-at="2023-10-29T13:54:02 CET" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- testPackage.class1 -->
+      <class name="testPackage.class2">
+        <test-method signature="PLoan()[pri:0, instance:testPackage.class2@49c7b90e]" started-at="2023-10-29T13:54:02 CET" name="PLoan" finished-at="2023-10-29T13:54:02 CET" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PLoan -->
+      </class> <!-- testPackage.class2 -->
+      <class name="testPackage.class4">
+        <test-method signature="loginAPIHomeLoan()[pri:0, instance:testPackage.class4@10d307f1]" started-at="2023-10-29T13:54:02 CET" name="loginAPIHomeLoan" finished-at="2023-10-29T13:54:02 CET" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAPIHomeLoan -->
+      </class> <!-- testPackage.class4 -->
+    </test> <!-- Regression -->
+  </suite> <!-- Loan Department -->
+</testng-results>
